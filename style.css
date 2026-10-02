@@ -1,0 +1,64 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* * {
+    color: brown;
+}  */
+
+img {
+    max-width: 100%;
+    /* margin-left: auto; */
+}
+
+.title {
+    text-transform:uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;  
+}
+
+.highlight {
+    font-size: 1.2rem;
+    
+    margin: 40px 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+a.social-icon {
+    margin: 0 5px;
+}
+
+a.social-icon > svg {
+    width: 24px;
+    /* fill: rgb(161, 125, 182); */
+    fill: #b785f5;
+    transition: fill .5s ease;
+}
+
+a.social-icon > svg:hover {
+    /* opacity: .7; */
+    fill: #9245ef;
+    /* fill: red; */
+}
+
+/* h1.title {
+    font-size: 12px;
+} */
+
+/* h1, h2 {
+    text-transform:uppercase;
+    font-size: 36px;
+} */

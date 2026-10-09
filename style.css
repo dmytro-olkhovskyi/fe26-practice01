@@ -18,11 +18,29 @@ img {
     /* margin-left: auto; */
 }
 
+img.thumbnail {
+    border-radius: 50%;
+}
+
 .title {
     text-transform:uppercase;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 3px;  
+
+    /* color: rgba(24, 34, 93, .5); */
+    /* color: #000b; */
+    /* color: white; */
+
+    /* color: #9245ef; */
+
+    opacity: .5;
+
+    /* background-color: turquoise; */
+}
+
+.title > i {
+    color: #9245ef;
 }
 
 .highlight {
@@ -52,6 +70,36 @@ a.social-icon > svg:hover {
     /* opacity: .7; */
     fill: #9245ef;
     /* fill: red; */
+}
+
+a[href^="tel:"] {
+    position: relative;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+a[href^="tel:"]::before {
+    /* content: "\260E"; */
+    font-family: "Font Awesome 7 Free";
+    font-weight: 900;
+    content: "\f095";
+    color: #b785f5;
+    margin-right: .5em;
+    display: inline-block;
+}
+
+a[href^="tel:"]::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+
+    /* width: 100%;
+    left: 0; */
+
+    height: 7px;
+    background-color: #000;
 }
 
 /* h1.title {
